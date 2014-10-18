@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
 	<head>
+		<script type="text/javascript">
+		      var userAgent = window.navigator.userAgent;
+		      if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+		        window.location = "myiosapp://"
+		      }
+		</script>
 		<title>Title</title>
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 	</head>
