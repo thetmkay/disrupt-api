@@ -1,4 +1,4 @@
-nodeprototype
+Stacktimer API
 =============
 
-quick build for prototyping
+StackTimer API
