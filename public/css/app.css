@@ -1,4 +1,107 @@
 html,body {
 	width: 100%;
 	height: 100%;
+	background-color: #f7fbfd;
+	margin: 0;
+	padding: 0;
+}
+
+.routine {
+	font-family: Raleway;
+	max-width: 500px;
+	margin: 0 auto;
+	font-weight: 300;
+	text-align: center;
+	height: 100%;
+	background-color: #f7fbfd;
+	padding: 0 20px;
+
+}
+
+.timer-time {
+	font-size: 36px;
+	font-weight: 100;
+	height: 75px;
+	line-height: 75px;
+	vertical-align: middle;
+	background-color: #B5D8EB;
+}
+
+.timer-mod {
+	width: 100%;
+	margin-top: 5px;
+}
+
+
+.timer-action {
+	font-weight: normal;
+	padding: 5px 0;
+	font-size: 12px;
+	width: 100%;
+	background-color:#A1C1D2 ;
+}
+
+.title-mod {
+	padding: 20px 0;
+	font-weight: normal;
+}
+
+.title {
+	position: relative;
+	padding: 10px;
+	background-color:#83C7A4;
+	border-radius: 4px;
+	border-bottom: solid 3px #669c80;
+	border-right: solid 3px #669c80;
+	font-weight: normal;
+	font-size: 20px;
+	color: white;
+}
+
+.title:hover {
+	top: 2px;
+	left: 2px;
+	cursor: pointer;
+	background-color:#669c80;
+}
+
+.home {
+	background-color: #87CEEB;
+}
+
+.home-title-mod {
+	max-width: 75%;
+	max-height: 400px;
+	font-family: Raleway;
+	margin: auto;
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.home-title {
+	font-size: 64px;
+	font-weight: 100;
+	font-family: Raleway;
+
+	/*color: #A1C1D2;*/
+}
+
+.home-subline {
+	font-size: 30px;
+	font-weight: 300;
+	font-family: Raleway;
+	margin-top: 30px;
+	/*color: #B5D8EB;*/
+}
+
+.home-date {
+	font-size: 20px;
+	font-weight: 200;
+	font-family: Raleway;
+	margin-top: 100px;
 }
