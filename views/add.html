@@ -1,9 +1,9 @@
 <html>
 <head>
-	<meta property="al:ios:url" content="stacktimer://add.timer" />
+	<meta property="al:ios:url" content="stacktimer://add.timer/{{encoded_url}}" />
 	<meta property="al:web:url"  content="http://stacktimer.com" />
 	<meta property="og:title" content="Timer"/>
-	<meta property="og:type" content="website"/>
+	<meta property="og:type" content="page"/>
 	<meta property="og:url" content="http://stacktimer.com"/>
 	<meta property="og:site_name" content="Stack Timer"/>
 	<script type="text/javascript">
@@ -15,6 +15,10 @@
 	<title>Timer</title>
 </head>
 <body>
-Hello, world!
+<h1>{{name}}</h1>
+{% for timer in timers %}
+
+<p>{{timer.time}} - {{timer.actionOnCompletion}}</p>
+{% endfor %}
 </body>
 </html>
