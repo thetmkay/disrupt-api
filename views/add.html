@@ -18,8 +18,9 @@
 	<link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
+<div class="header"><a class="header-title" href="/">StackTimer</div></div>
 <div class="routine">
-	<div class="title-mod" id="app-trigger"><span class="title">open {{name}} in stacktimer&nbsp;<i class="fa fa-external-link"></i></span class="title"></div>
+	<div class="title-mod" id="app-trigger"><div class="title">add <b>{{name}}</b> to StackTimer&nbsp;<i class="fa fa-external-link"></i></div class="title"></div>
 	{% for timer in timers %}
 	<div class="timer-mod">
 		<div class="timer-action">{{timer.actionOnCompletion}}</div>
