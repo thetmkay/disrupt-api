@@ -20,13 +20,13 @@ a {
 	text-align: center;
 	line-height: 40px;
 	vertical-align: middle;
-	font-family: Raleway;
+	font-family: Helvetica Neue, Raleway, Helvetica, sans-serif;
 	background-color: #87CEEB;
 	color: white;
 }
 
 .routine {
-	font-family: Raleway;
+	font-family: Helvetica Neue, Raleway, Helvetica, sans-serif;
 	max-width: 500px;
 	margin: 0 auto;
 	font-weight: 300;
@@ -46,7 +46,7 @@ a {
 	line-height: 75px;
 	vertical-align: middle;
 	background-color: #f4fcf3;
-	letter-spacing: 7px;
+	letter-spacing: 5px;
 }
 
 .timer-mod {
@@ -99,7 +99,7 @@ a {
 .home-title-mod {
 	max-width: 75%;
 	max-height: 400px;
-	font-family: Raleway;
+	font-family: Helvetica Neue, Raleway, Helvetica, sans-serif;
 	margin: auto;
 	text-align: center;
 	color: white;
@@ -113,7 +113,7 @@ a {
 .home-title {
 	font-size: 64px;
 	font-weight: 100;
-	font-family: Raleway;
+	font-family: Raleway, Helvetica, sans-serif;
 
 	/*color: #A1C1D2;*/
 }
@@ -122,7 +122,7 @@ a {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-family: Raleway;
+	font-family: Raleway, Helvetica, sans-serif;
 	/*margin-top: 30px;*/
 	/*color: #B5D8EB;*/
 }
@@ -130,6 +130,6 @@ a {
 .home-date {
 	font-size: 24px;
 	font-weight: 200;
-	font-family: Raleway;
+	font-family: Raleway, Helvetica, sans-serif;
 	margin-top: 100px;
 }
