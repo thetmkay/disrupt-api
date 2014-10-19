@@ -1,6 +1,6 @@
 <html>
 <head>
-	<meta property="al:ios:url" content="stacktimer://add.timer/{{encoded_url}}" />
+	<meta property="al:ios:url" content="stacktimer://add.timer?{{encoded_url}}" />
 	<meta property="al:web:url"  content="http://stacktimer.com" />
 	<meta property="og:title" content="Timer"/>
 	<meta property="og:type" content="page"/>
@@ -9,7 +9,7 @@
 	<script type="text/javascript">
 	      var userAgent = window.navigator.userAgent;
 	      if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
-	        window.location = "stacktimer://add.timer/{{encoded_url}}"
+	        window.location = "stacktimer://add.timer?{{encoded_url}}"
 	      }
 	</script>
 	<title>Timer</title>
